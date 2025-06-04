@@ -17,8 +17,11 @@ Before running the project, ensure the following dependencies are installed.
 📦 Install Required Libraries
 Run the following commands in order:
 !apt-get install libzbar0
+
 !pip install pyzbar opencv-python
+
 !pip install qrcode[pil]
+
 🔍 Note: The first command installs a system-level dependency required for pyzbar to function properly.
 
 
@@ -31,14 +34,23 @@ Install Dependencies
 Run this in a code cell:
 
 !apt-get install libzbar0
+
 !pip install pyzbar opencv-python
+
 !pip install qrcode[pil]
+
 Run the Code
+
 Enter your text when prompted to generate a QR code.
+
 View the generated image directly in Colab.
+
 Decode the QR code to retrieve the original text.
+
 ✅ Google Colab is highly recommended to avoid any local environment issues.
+
 Encode input to generate and save a QR code.
+
 Choose to decode it whenever required.
 
 
